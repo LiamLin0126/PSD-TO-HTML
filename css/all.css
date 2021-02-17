@@ -1,0 +1,375 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+.t_head{
+    padding-top: 5px;
+    float: right; 
+    color: black;
+}
+
+.title{
+    background: #d0d2d6;
+    /* width: 1000px; */
+    /* height: 20px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1002px;
+}
+
+.header{
+    background: white;
+    padding-top: 2px;
+    /* height: 40px; */
+    color: black;
+}
+
+.check{
+   float: right; 
+   padding-top: 5px;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-bottom: 5px;
+   color: rgb(0, 204, 153);
+}
+
+.check:active{
+    border-bottom: 3px solid rgb(0, 204, 153) ;
+}
+
+.t_list{
+
+    float: right;
+}
+
+.HTML{
+    float: left;
+    position: absolute;
+    top: 30px;
+    background: #ffffff;
+    padding-bottom: 21px;
+    /* height: 330px; */
+    width: 300px;
+    left: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 1px #dbdad5;
+    /* border: 1px solid black; */
+}
+
+.Respnse{
+    position: absolute;
+    float: left;
+    background: white;
+    padding-bottom: 21px;
+    /* height: 328px; */
+    width: 300px;
+    top: 30px;
+    left: 350px;
+    box-shadow: 0px 3px 1px #dbdad5;
+    /* border: 1px solid black; */
+}
+
+.list .HTML .content {
+    /* position: absolute; */
+    margin-top: 10px;
+    bottom: 24px;
+    line-height: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+.list .jQuery ul{
+    font-size: 15px;
+    padding-left: 18px;
+    list-style-type: disc;
+}
+
+.list .jQuery .content{
+
+    /* position: absolute; */
+    margin-top: 10px;
+    bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    /* bottom: 0px; */
+    box-sizing: border-box;
+     
+}
+
+.list .Respnse .content{
+    margin-top: 10px;
+    bottom: 24px;
+    line-height: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-top: 5px; */
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* bottom: 0px; */
+    box-sizing: border-box;
+    /* line-height: 101px; */
+}
+
+.mark_html{
+    margin: 10px;
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mark_response{
+    margin: 10px;
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 70px; */
+}
+
+.list_titile{ 
+    /* position: absolute; */
+    text-align: center;
+    /* padding-top: 172px; */
+    /* top: 172px; */
+    /* vertical-align: middle; */
+    font-size: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.mark_jQuery{
+    margin: 10px;
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+  
+}
+
+.jQuery{
+    position: absolute;
+    float: left;
+    background: white;
+    padding-bottom: 26px;
+    width: 300px;
+    top: 30px;
+    left: 676px;
+    box-shadow: 0px 3px 1px #dbdad5;
+    /* border: 1px solid black; */
+}
+.list{
+    position: relative;
+    /* float: left; */
+    height: 450px;
+}
+
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+  }
+  
+.social{ 
+    text-decoration: none;
+    color: black;
+    padding-top: 3px;
+    padding-right: 8px;
+    float: right;
+}
+.main{
+    position: relative;
+    background: url(../img/Banner.jpg) repeat-x;
+    height: 418px; 
+}
+
+ .TITLE{
+    position: relative;
+    height: 120px;
+    top: 160px;
+    background: rgba(134, 140, 145, 0.25);
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.M_title{
+    padding-left: 15px;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.subtitle{
+    padding-left: 15px;
+    padding-top: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.table{
+    /* margin-top: 50px; */
+    height: 360px;
+    /* background: red; */
+    text-align: center;
+}
+
+.table h2{
+    font-size: 25px;
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .title_row{
+    background-color: #f5f5f5;
+  }
+
+  .greenfont{
+    color: rgb(0, 204, 153);
+  }
+
+  .feedback{
+      /* height: 400px; */
+      padding-bottom: 20px;
+      background: url(../img/bg.png);
+  }
+
+  .feedback .title_fb{
+      font-size: 25px;
+      padding-top: 36px;
+      text-align: center;
+      color: white;
+  }
+
+  .feedback .title_fb p{
+    line-height: 35px; 
+  }
+
+  .feedback form textarea{
+    float: left;
+    resize: none;
+    margin-top: 30px;
+    margin-left: 15px;
+    border-radius: 10px;
+  }
+  .feedback form{
+    width: 880px;
+    /* margin-top: 30px; */
+    margin-left: 35px;
+      float: left;
+      /* line-height: 200px; */
+  }
+
+  .clearFloat{
+    clear:both;
+  }
+  .feedback form .subform{
+      margin-left: 10px;
+      float: left;
+    margin-top: 25px;
+  }
+
+  .feedback form input{
+      display: block;
+      margin-top: 3px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 3px;
+  }
+  
+  .feedback form .btn_submit{
+      position: relative;
+      top: 10px;
+      float: right;
+    /* margin-top: 15px; */
+    padding: 8px 20px 8px 20px;
+    color: white;
+    background: rgb(0, 204, 153);
+    border-radius: 5px;
+    /* margin-left: 360px; */
+  }
+
+.footer{
+    /* height: 120px; */
+    background-color: white;
+}
+
+.footer img{
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.footer .info{
+    margin-top: 30px;
+    float: right;
+}
+
+.footer .info span{
+    color: #e3458a;
+}
+
+.header .t_head .check:hover{
+    
+}
